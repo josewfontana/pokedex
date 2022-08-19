@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));  
+  margin-top: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.type{
+  background: url("./assets/images/pokemon-types.png") no-repeat;
+  background-size: 400px;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.types{
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.typesContainer{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.typeName{
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grass{
+  background-position: -208px -92px;
+}
+
+.poison{
+  background-position: -9px -173px;
+}
+
+.fire{
+  background-position: -9px -93px;
+}
+
+.flying{
+  background-position: -75px -93px;
+}
+
+.water{
+  background-position: -340px -173px;
+}
+
+.bug{
+  background-position: -9px -13px;
+}
+
+.normal{
+  background-position: -9px -173px;
+}
+
+.electric{
+  background-position: -208px -12px;
+}
+
+.ground{
+  background-position: -274px -92px;
+}
+
+.fighting{
+  background-position: -341px -12px;
+}
+
+.dark{
+  background-position: -75px -13px;
+}
+
+.fairy{
+  background-position: -274px -12px;
+}
+
+.steel{
+  background-position: -274px -173px;
+}
+
+.ghost{
+  background-position: -142px -93px;
+}
+
+.psychic{
+  background-position: -142px -173px;
+}
+
+.rock{
+  background-position: -208px -173px;
+}
+
+.dragon{
+  background-position: -142px -12px;
+}
+
+.ice{
+  background-position: -341px -92px;
 }

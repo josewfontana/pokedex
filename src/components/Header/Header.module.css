@@ -1,0 +1,22 @@
+.headerContainer{
+  background-color: #FFF;
+  border-bottom: 2px solid #CCC;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.headerContainer a{
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.logo{
+  height: 50px;
+  margin-top: 15px;
+  width: 150px;
+}
